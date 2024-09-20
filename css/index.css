@@ -1,8 +1,6 @@
 @import url("./text.css");
 
 body {
-  /* font-family: "Poppins", sans-serif; */
-  /* background-color: #141414; */
   color: white;
   margin: 0 auto;
 }
@@ -13,14 +11,23 @@ body {
 }
 .header {
   height: 140px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  border-bottom: #e9e9e9 1px solid;
 }
 
 .header__overlay {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.header__overlay .container {
   display: flex;
   justify-content: space-between;
   height: 82.5px;
   align-items: center;
-  border-bottom: 1px solid #e9e9e9;
+  margin: 0 auto;
 }
 
 .header__logo {
@@ -37,12 +44,15 @@ body {
   align-items: center;
   gap: 32px;
   height: 57.5px;
-  border-bottom: #e9e9e9 1px solid;
 }
 
 .header__nav-item {
   display: flex;
   gap: 5px;
+}
+
+.header__nav-item:hover:not(:last-child) {
+  /* background-color: aqua; */
 }
 
 .content {

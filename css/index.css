@@ -1,3 +1,4 @@
+@import url("./reset.css");
 @import url("./text.css");
 
 body {
@@ -51,6 +52,16 @@ body {
   gap: 0.25rem;
 }
 
+.header__nav-item::after {
+  content: "";
+  background-image: url("../src/icons/chevron-down.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10px;
+  height: 6px;
+  position: relative;
+  top: 0.3rem;
+}
 .header__nav-item:hover:not(:last-child) {
   /* background-color: aqua; */
 }

@@ -32,10 +32,10 @@
     content: "";
     display: inline-block;
     position: relative;
-    top: -2px;
-    width: 4px;
-    height: 4px;
+    top: -.1rem;
+    width: .25rem;
+    height: .25rem;
     border-radius: 50%;
     background-color: #d7d7d7;
-    margin-right: 5px;
+    margin-right: 0.3125rem;
   }

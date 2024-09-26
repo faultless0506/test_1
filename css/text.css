@@ -9,7 +9,6 @@ html, .body {
 }
     
 h2 {
-    font-family: "Roboto", sans-serif;
     font-weight: bold;
 
     color: #000000;
@@ -20,7 +19,6 @@ h2 {
 
 
 li {
-    font-family: "Roboto", sans-serif;
     line-height: 1rem;
     font-weight: 700;
     color: #000000;
@@ -31,14 +29,12 @@ a {
 }
 
 .content__card p {
-    font-family: "Roboto", sans-serif;
     font-weight: normal;
     color: #929292;
     font-size: 0.875rem;
     line-height: 1.25rem;
 }
 .content__card h3 {
-    font-family: "Roboto", sans-serif;
     color: #EB0028;
     font-weight: 900;
     font-size: 13px;
@@ -46,7 +42,6 @@ a {
 }
 
 .content__card a {
-    font-family: "Roboto", sans-serif;
     color: #000000;
     font-weight: 900;
     font-size: 0.75rem;
@@ -54,9 +49,15 @@ a {
 }
 
 .content__card span {
-    font-family: "Roboto", sans-serif;
     color: #9b9b9b;
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 1rem;
+}
+
+.header__nav-sublist-item a {
+    color: #000000;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1em;
 }

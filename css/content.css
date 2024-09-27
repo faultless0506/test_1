@@ -5,11 +5,27 @@
     gap: 40px;
     margin-top: 3rem;
     margin-bottom: 10.35rem;
+    z-index: -1;
   }
   
   .content__card {
+    /* width: 100%; */
     max-width: 360px;
-    min-width: 336px;
+    /* min-width: 336px; */
+  }
+  @media (max-width: 820px) {
+    .content {
+      margin-top: 0;
+    }
+    .content__card {
+      max-width: 360px;
+      min-width: 310px;
+      width: 100%;
+    }
+  }
+  
+  .content__card img {
+    width: 100%;
   }
   
   .content__card-text {
@@ -38,4 +54,5 @@
     border-radius: 50%;
     background-color: #d7d7d7;
     margin-right: 0.3125rem;
+    z-index: -1;
   }
